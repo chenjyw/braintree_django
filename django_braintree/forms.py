@@ -251,6 +251,7 @@ class TransactionForm(BraintreeForm):
     tr_fields = OrderedDict([
         ("transaction", OrderedDict([
             ("amount", None),
+            ("merchant_account_id", None),
             ("customer", OrderedDict([
                 ("first_name", None),
                 ("last_name", None),
